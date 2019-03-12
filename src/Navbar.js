@@ -11,7 +11,7 @@ import Contact from "./Contact";
 
 
 
-class Dropdown extends React.Component {
+class Navbar extends React.Component {
 constructor(){
  super();
 
@@ -71,5 +71,5 @@ showDropdownMenu(event) {
   }
 }
 
-export default Dropdown;
+export default Navbar;
 
