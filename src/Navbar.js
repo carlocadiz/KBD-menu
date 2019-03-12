@@ -42,10 +42,13 @@ showDropdownMenu(event) {
     return (
 
          <div>
-           <h1>Canada</h1>
+         <a className="french" href="https://www.canada.ca/fr.html">Francais</a>
+         <br />
+          <img src="http://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada logo"/>
 
-             <div  className="dropdown" style = {{background:"red",width:"200px"}} >
-             <div className="button" onClick={this.showDropdownMenu}> Menu </div>
+           <div className = "border"></div>
+             <div  className="dropdown" /*style = {{background:"red",width:"200px"}}*/ >
+               <div className="button" onClick={this.showDropdownMenu}> MENU </div>
 
               { this.state.displayMenu ? (
 
@@ -66,6 +69,7 @@ showDropdownMenu(event) {
             <Route path="/contact" component={Contact}/>
             </div>
          </div>
+
 
     );
   }
