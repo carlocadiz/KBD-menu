@@ -48,7 +48,7 @@ showDropdownMenu(event) {
 
            <div className = "border"></div>
              <div  className="dropdown" /*style = {{background:"red",width:"200px"}}*/ >
-               <div className="button" onClick={this.showDropdownMenu}>menu</div>
+               <div className="button" onClick={this.showDropdownMenu}>menu<i className="fas fa-chevron-down"></i></div>
 
               { this.state.displayMenu ? (
 
