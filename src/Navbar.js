@@ -48,7 +48,7 @@ showDropdownMenu(event) {
 
            <div className = "border"></div>
              <div  className="dropdown" /*style = {{background:"red",width:"200px"}}*/ >
-               <div className="button" onClick={this.showDropdownMenu}> MENU </div>
+               <div className="button" onClick={this.showDropdownMenu}>menu</div>
 
               { this.state.displayMenu ? (
 

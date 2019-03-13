@@ -1,6 +1,5 @@
 body {
   background-color: #fff;
-  padding: 20px;
   margin: 0;
   font-family: "Noto Sans",sans-serif;
   font-size: 16px;
@@ -17,6 +16,7 @@ ul.header {
 
   background-color: #444;
   padding: 0;
+  margin-left: 25%;
 }
 
 ul.header li {
@@ -52,8 +52,8 @@ ul.header li {
      list-style-type: none;
      margin: 0;
      padding: 0;
-     top:45px;
-     right:0px;
+
+
      width: 200px;
      background-color: white;
      /*font-weight:bold;*/
@@ -64,7 +64,7 @@ ul.header li {
      font-size: 20px;
 }
  li a {
-     color: #000;
+     color: #fff;
      text-decoration: none;
 }
  li {
@@ -74,19 +74,36 @@ ul.header li {
  li:last-child {
      border-bottom: none;
 }
- li:hover {
+ li :hover {
      background-color: #fff;
      color: black;
 }
- .button{
-     width:178px;
-     height:18px;
-     background-color:#ff3232 ;
-     padding:12px;
-     border-radius:5px;
-     font-weight:bold;
-     color:white;
+li a:hover {
+  color: black;
 }
+
+ .button{
+  font-family: "Lato", sans-serif;
+     width:100px;
+     height:18px;
+     background-color:#fff ;
+     padding:12px;
+     margin-left: 25%;
+     font-size: 20px;
+     text-transform: uppercase;
+     color:#284162;
+}
+
+.button:hover{
+   background-color: #444 !important;
+   color: #fff !important;
+}
+
+.button:focus{
+   background-color: #444 !important;
+   color: #fff !important;
+}
+
 /*
  .button:before{
      content:"";
