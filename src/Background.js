@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-class Background extends Component {
-  render() {
+const Background = () => {
+
     return (
       <div>
         <h2>Background</h2>
@@ -18,7 +18,7 @@ class Background extends Component {
           Carlo Cadiz</p>
       </div>
     );
-  }
+
 }
 
 export default Background;
